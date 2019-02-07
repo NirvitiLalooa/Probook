@@ -1,0 +1,5 @@
+**/.DS_Store
+.idea
+
+# ignore node modules
+**/node_modules

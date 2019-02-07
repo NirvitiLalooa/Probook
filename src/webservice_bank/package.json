@@ -1,0 +1,30 @@
+{
+  "name": "webservice_bank",
+  "version": "1.0.0",
+  "description": "Services for ProBook Web Apps. Provides credit card validation and money transfer.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.informatika.org/ninja/tugasbesar2_2018"
+  },
+  "keywords": [
+    "bank",
+    "probook",
+    "transfer",
+    "cardvalidation"
+  ],
+  "author": "ninjateam",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}

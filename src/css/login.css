@@ -1,0 +1,77 @@
+#login #login-form {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.login-form-border {
+    display: flex;
+    background-color: #00aeef;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 480px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+}
+
+.login-form-container {
+    background-color: white;
+    background:url('../img/polkadot1.png') #FFF;
+    background-size: 15%;
+    width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.login-form-container h1 {
+    text-align: center;
+    font-family: 'Carme', sans-serif;
+    font-size: 40px;
+}
+
+#login-form .login-btn {
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color: white;
+    color: #F26600;
+    border: 1px solid #F26600;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.register-form .register-btn {
+    background-color: white;
+    color: #F26600;
+    border: 1px solid #F26600;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+button:disabled, button[disabled] {
+    background-color: black;
+    color: #F26600;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.save-btn {
+    background-color: white;
+    color: #F26600;
+    border: 1px solid #F26600;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.back-btn {
+    background-color: #F26600;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 24px;
+}
